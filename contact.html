@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+    .form_container
+    {
+        padding: 100px;
+    display: flex;
+    background: url('./image/bg.png');
+    }
+    a img{
+        border-radius: 40px;
+        
+    }
+    
+</style>
+<body>
+    <div class="topnav">
+        <nav>
+            <a  href="./index.html">Home</a>
+            <a  href="./about.html">About</a>
+            <a href="./education.html">Education</a>
+            <a href="./reference.html">Reference</a>
+            <a class="active" href="#contact.html">Contact</a>
+
+         </nav>
+
+    </div>
+    <div class="form_container">
+    <div class="contact">
+    <h2>Contact Us</h2><br>
+    <div class="contact_images">
+        <a href="https://www.facebook.com/"><img src="./image/facebook.png" alt="" class="linkimage"></a>
+        <a href="https://www.github.com/"><img src="./image/github.png" alt="" class="linkimage"></a>
+        <a href="https://www.instagram.com/"><img src="./image/instagram.png" alt="" class="linkimage"></a>
+        <a href="https://www.linkedin.com/"><img src="./image/linkedin.png" alt="" class="linkimage"></a>
+    </div>
+</div>
+    <div class="contact_form">
+        <form>
+            
+            <label>Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+    
+            
+            <label >Contact Details:</label>
+            <input type="text" id="contactDetails" name="contactDetails" required>
+            <br>
+    
+    
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+</div>
+</body>
+</html>
