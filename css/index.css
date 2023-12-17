@@ -17,18 +17,23 @@ button {
       object-fit: cover;
 }
 .topnav a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(9, 9, 9);
+   font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
     text-decoration:none ;
     padding:20px;
     text-align: end;
+    
+}
+.topnav{
+  background-color: #0f0e0e8e;
+  height: 40px;
 }
 
 .topnav a:hover{
-    color: red;
+    color: rgba(255, 136, 0, 0.696);
 }
 .topnav a.active{
-    color: red;
+    color: rgba(255, 0, 0, 0.804);
 }
 .container{
     display: flex;
@@ -89,6 +94,7 @@ h2{
 .introname{
   color: white;
   padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .aboutbutton{
   align-items: baseline;
@@ -122,12 +128,12 @@ body {
   }
   form {
       
-      background-color: #ffffff0f;
+      background-color: #ffffff3a;
       padding: 20px;
       border-radius: 10px;
       top: 50%;
        left: 50%;
-      box-shadow: 0 0 20px rgba(197, 17, 17, 0.1);
+      box-shadow: 0 0 20px rgba(43, 42, 42, 0.1);
       width: 320px;
       text-align: center;
   }
@@ -140,16 +146,16 @@ body {
   label {
       display: block;
       margin-bottom: 8px;
-      color: #c5c5c5;
+      color: #c5c5c5ea;
   }
 
   input {
-      background-color: #5555551a;
+      background-color: #55555593;
       width: 100%;
       padding: 10px;
       margin-bottom: 16px;
       box-sizing: border-box;
-      border: 1px solid #cccccc10;
+      border: 1px solid #cccccc7b;
       border-radius: 4px;
       transition: border-color 0.3s;
   }
@@ -159,7 +165,7 @@ body {
   }
 
   input[type="submit"] {
-      background-color: #4caf50;
+      background-color:goldenrod;
       color: #ffffff;
       cursor: pointer;
       transition: background-color 0.3s;
